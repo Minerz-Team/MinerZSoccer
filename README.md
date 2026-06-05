@@ -1,4 +1,4 @@
-# ⚽ Miner Soccer Robot
+# ⚽ MinerZ Soccer Robot
 
 An open-source educational soccer robot platform based on ESP32, WiFi communication, 3D printed parts, and a desktop Driver Station.
 
