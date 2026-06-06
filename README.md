@@ -108,7 +108,7 @@ Supported platforms:
 - Windows
 - macOS
 
-![Driver Station](images/driver-station/driver-station-main.jpeg)
+![Driver Station](images/driver-station/driver-station-main.png)
 
 Repository:
 
