@@ -1,86 +1,61 @@
 # ⚽ MinerZ Soccer Robot
 
-An open-source educational soccer robot platform based on ESP32, WiFi communication, 3D printed parts, and a desktop Driver Station.
+An open-source ESP32-based educational soccer robot platform designed for robotics clubs, STEM programs, classroom competitions, and hobbyist projects.
 
-Designed for robotics clubs, STEM programs, classroom competitions, and hobbyist projects.
+![MinerZ Soccer Robot](images/robot-front.jpeg)
 
 ---
 
 ## Overview
 
-This project provides everything needed to build and operate a low-cost WiFi-controlled soccer robot:
+The MinerZ Soccer Robot is a low-cost WiFi-controlled educational robot built around the ESP32 platform.
 
-- ESP32 firmware using ESP-IDF
+The project includes:
+
+- ESP32 firmware based on ESP-IDF
 - Desktop Driver Station for Windows and macOS
-- Modular electronics using widely available components
 - 3D printable chassis
+- Simple modular electronics
 - Assembly and wiring documentation
 - Optional competition scoring system
 
-The platform was created with simplicity, accessibility, and educational use in mind.
+The entire platform is designed to be affordable, easy to assemble, and suitable for educational robotics environments.
 
 ---
 
 ## Features
 
-- WiFi-based robot control
+- ESP32-based control system
+- WiFi communication
 - Differential drive (tank steering)
-- ESP32 SoftAP mode for competition environments
-- Desktop Driver Station
-- Automatic motor fail-safe
-- Fully open-source firmware
-- Simple modular hardware
+- Driver Station support
+- Automatic fail-safe protection
+- Modular hardware design
 - Single-piece 3D printed chassis
 - No custom PCB required
+- Open-source firmware and documentation
 
 ---
 
-## Hardware
+## Hardware Overview
 
-The robot is intentionally built from inexpensive and easy-to-source components.
+![Top View](images/robot-top.jpeg)
 
-### Main Components
+Main hardware components:
 
-| Qty | Component |
-|------|-----------|
-| 1 | ESP32 DevKit (30-pin) |
-| 1 | ESP32 Expansion Shield |
-| 1 | L298N Motor Driver |
-| 2 | DC Gear Motors |
-| 2 | Wheels |
-| 1 | Battery Holder |
-| 2 | Rechargeable Cells |
-| 1 | Power Switch |
-| 1 | 3D Printed Chassis |
-| 4 | M3 Screws |
-| Assorted | Jumper Wires |
+- ESP32 DevKit (30-pin)
+- ESP32 IO Shield
+- L298N Motor Driver
+- 2 × TT Gear Motors
+- 2 × 48 mm Wheels
+- 2 × 18650 Li-Ion Cells
+- 2S Battery Holder
+- Power Switch
+- 3D Printed Chassis
 
-A complete Bill of Materials is available in:
+Complete hardware details:
 
-`docs/bom.md`
-
----
-
-## Mechanical Design
-
-The chassis is designed as a single 3D printed part to simplify assembly and reduce manufacturing time.
-
-### Attribution
-
-This design is based on:
-
-**Soccer Robot – Battle & Soccer Hybrid Chassis**  
-Author: Diego Armaker
-
-Original model:
-
-https://www.thingiverse.com/thing:7239226
-
-Licensed under:
-
-Creative Commons Attribution (CC BY)
-
-Modifications were made to adapt the design to this platform and its electronics.
+- [Bill of Materials](docs/bom.md)
 
 ---
 
@@ -88,23 +63,31 @@ Modifications were made to adapt the design to this platform and its electronics
 
 The robot can be assembled using basic tools and commonly available components.
 
-Assembly instructions:
+Assembly documentation:
 
-`docs/assembly.md`
+- [Assembly Guide](docs/assembly.md)
+
+Assembly process images:
+
+- Motor installation
+- Electronics installation
+- Final assembly
 
 ---
 
 ## Wiring
 
-The electronics are completely modular and do not require soldering beyond basic motor and power connections.
+![Wiring Overview](hardware/wiring/wiring-diagram.webp)
 
-Wiring guide:
+The electronics are intentionally simple and use commonly available modules.
 
-`docs/wiring.md`
+Documentation:
+
+- [Wiring Guide](docs/wiring.md)
 
 ---
 
-## Software Components
+## Software
 
 ### ESP32 Firmware
 
@@ -112,64 +95,74 @@ Firmware written in C using ESP-IDF.
 
 Repository:
 
-`soccer-robot-firmware-esp32`
+```text
+Coming soon
+```
 
 ### Driver Station
 
-Desktop application used to control the robot.
+Desktop application used to control the robot over WiFi.
 
 Supported platforms:
 
 - Windows
 - macOS
 
+![Driver Station](images/driver-station/driver-station-main.jpeg)
+
 Repository:
 
-`soccer-robot-driver-station`
+```text
+Coming soon
+```
 
-Precompiled binaries are available in the Releases section.
+Precompiled applications will be available through GitHub Releases.
 
 ### Scoring System
 
-Optional scoring and match-management software inspired by educational robotics competitions.
+Competition scoring software inspired by educational robotics competitions.
 
 Repository:
 
-`soccer-robot-scoring-system`
-
----
-
-## Downloads
-
-Precompiled applications are available under GitHub Releases.
-
-Available downloads may include:
-
-- Driver Station (Windows)
-- Driver Station (macOS)
-- Scoring System (Windows)
-- Scoring System (macOS)
-
----
-
-## Project Structure
-
 ```text
-soccer-robot/
-├── docs/
-│   ├── assembly.md
-│   ├── bom.md
-│   ├── wiring.md
-│   └── competition-setup.md
-│
-├── hardware/
-│   ├── 3d-models/
-│   └── wiring/
-│
-├── images/
-│
-└── README.md
+Coming soon
 ```
+
+---
+
+## Documentation
+
+Available documentation:
+
+- [Bill of Materials](docs/bom.md)
+- [Assembly Guide](docs/assembly.md)
+- [Wiring Guide](docs/wiring.md)
+- [3D Model Attribution](docs/attribution.md)
+- [Changelog](CHANGELOG.md)
+
+---
+
+## 3D Model Attribution
+
+The chassis used in this project is based on:
+
+## Soccer Robot – Battle & Soccer Hybrid Chassis
+
+Author:
+
+Diego Armaker
+
+Original model:
+
+[Thingiverse: Soccer Robot – Battle & Soccer Hybrid Chassis](https://www.thingiverse.com/thing:7239226)
+
+License:
+
+Creative Commons Attribution (CC BY)
+
+See:
+
+- [Attribution Details](docs/attribution.md)
 
 ---
 
@@ -177,10 +170,9 @@ soccer-robot/
 
 This project is intended for:
 
-- Educational robotics programs
-- STEM workshops
-- School competitions
 - Robotics clubs
+- STEM programs
+- Educational competitions
 - Makerspaces
 - Hobby robotics enthusiasts
 
@@ -188,11 +180,13 @@ This project is intended for:
 
 ## License
 
-Firmware and software components are released under the MIT License unless otherwise specified.
+Software components are released under the MIT License.
+
+See:
+
+- [LICENSE](LICENSE)
 
 The modified chassis design remains subject to the attribution requirements of the original CC BY license.
-
-See the LICENSE file for details.
 
 ---
 
@@ -200,7 +194,7 @@ See the LICENSE file for details.
 
 Contributions, bug reports, documentation improvements, and feature suggestions are welcome.
 
-If you build a robot using this project, feel free to share photos, videos, or improvements with the community.
+If you build a robot using this project, feel free to share your results with the community.
 
 ---
 
@@ -208,7 +202,7 @@ If you build a robot using this project, feel free to share photos, videos, or i
 
 Special thanks to:
 
-- Espressif Systems for ESP32 and ESP-IDF
+- Espressif Systems
 - The open-source robotics community
 - Diego Armaker for the original chassis design
-- Everyone contributing to educational robotics initiatives
+- Educators and students supporting robotics initiatives
