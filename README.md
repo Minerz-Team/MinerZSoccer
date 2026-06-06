@@ -94,10 +94,7 @@ Documentation:
 Firmware written in C using ESP-IDF.
 
 Repository:
-
-```text
-Coming soon
-```
+[MinerZ Soccer Robot Firmware (ESP32)](https://github.com/MinerZ-Robotics/soccer-robot-firmware-esp32)
 
 ### Driver Station
 
@@ -111,10 +108,7 @@ Supported platforms:
 ![Driver Station](images/driver-station/driver-station-main.png)
 
 Repository:
-
-```text
-Coming soon
-```
+[MinerZ Soccer Robot Driver Station](https://github.com/Minerz-Team/soccer-robot-driver-station.git)
 
 Precompiled applications will be available through GitHub Releases.
 
