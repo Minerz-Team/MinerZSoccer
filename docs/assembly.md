@@ -51,9 +51,7 @@ Do not connect the ESP32 board yet.
 
 Refer to the wiring guide:
 
-```text
-docs/wiring.md
-```
+- [Wiring Guide](docs/wiring.md)
 
 ---
 
@@ -130,10 +128,7 @@ Flash the firmware before final deployment.
 Programming is significantly easier before the USB port becomes difficult to access.
 
 Firmware repository:
-
-```text
-soccer-robot-firmware-esp32
-```
+[soccer-robot-firmware-esp32](https://github.com/Minerz-Team/soccer-robot-firmware-esp32.git)
 
 ---
 
